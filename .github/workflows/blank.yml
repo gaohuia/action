@@ -27,5 +27,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           env
-          apt install socat -y
+          sudo apt install socat -y
           
